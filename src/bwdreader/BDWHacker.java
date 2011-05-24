@@ -310,7 +310,7 @@ import java.util.logging.Logger;
     }
 
 public class BDWHacker {
-    static String version = "2011.05.03";
+    static String version = "2011.05.24";
     static String author = "Fedotov Viktor (c) 2011 <vtwww@yandex.ru>";
     
 
@@ -906,6 +906,7 @@ public class BDWHacker {
                     if (r.filename_data[10] == 19 ) s1 = 11;
                     if (r.filename_data[10] == 14 ) s1 = 11;
                     if (r.filename_data[10] == 15 ) s1 = 11;
+                    if (r.filename_data[10] == 12 ) s1 = 11;
                     /*2011-04-06*/
                     if (r.filename_data[10] == 16 ) s1 = 11;
 
